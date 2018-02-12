@@ -1,9 +1,0 @@
-COMPLETE:
-index.html is complete except for logo
-All sidenav are synced
-
-TODO:
-Add img to each html file for sidenav
-Write Introduction to the project
-Write Requirements
-Write Design (make updatable in future)
