@@ -2,6 +2,15 @@
     font-family: "Lato", sans-serif;
 }
 
+dd {
+    display: list-item;
+    list-style-type: disc;
+}
+
+dt{
+    text-decoration: underline;
+}
+
 .sidenav {
     height: 100%;
     width: 215px;
