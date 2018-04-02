@@ -45,7 +45,280 @@
 
 <div class="main">
 	<h2>Testing</h2>
-	<p>write stuff</p>
+<!--
+#####################################
+	Bulleted List Below
+#####################################
+-->
+<ul class="FirstBullet">
+<dt>Unit Testing</dt>
+<dd>	
+	<li>Main Menu</li>
+	<ul>
+		<li>Test Play Button</li>
+		<ul>
+			<li>Takes user to game mode -- Begins game</li>
+		</ul>
+		<li>Test Options Button</li>
+		<ul>
+			<li>Takes user to Options menu</li>
+			<li>Allows use to adjust volume/brightness of game</li>
+			<li>Test Back Button</li>
+			<ul><li>Takes user back to main menu</li></ul>
+		</ul>
+		<li>Test Quit Button</li>
+		<ul>
+			<li>Closes the Main Menu</li>
+			<li>Application Closes</li>
+		</ul>
+	</ul>
+	<li>Pause Menu</li>
+	<ul>
+		<li>Pause Function</li>
+		<ul><li>Test that game pauses</li></ul>
+		<li>Test Resume Button</li>
+		<ul><li>Takes user back to game mode</li></ul>
+		<li>Test Options Button</li>
+		<ul><li>Same Functionality as Options Button on Main Menu</li></ul>
+		<li>Test Quit Button</li>
+		<ul><li>Takes user back to Main Menu</li></ul>
+	</ul>
+	</li>
+	<li>Scoring</li>
+		<ul><li>Scores are displayed at the end of the level</li></ul>
+	<li>Outline Colors Change</li>
+	<ul>
+		<li>Scoring</li>
+		<ul><li>Black Outline = 5 points</li></ul>
+		<ul><li>Blue Outline = 10 points</li></ul>
+		<ul><li>Gold / Yellow Outline = 15 points</li></ul>
+		<li>Red Outline + Monster Fill Color is Red = Monster is Hit</li>
+	</ul>
+</dd>
+
+</br>
+<dt>Integration and Function Testing</dt>
+<dd>
+	<li>Pause Menu</li>
+		<ul><li>User is able to access menu within the game</li></ul>
+	<li>Combat</li>
+	<ul>
+		<li>Firing when user presses button on VR headset</li>
+		<li>Monster turns red on hit</li>
+		<li>Hit Criteria</li>
+		<ul>
+			<li>Reticle aimed at monster (within colored outline)</li>
+			<li>Button Pressed (firing)</li>
+		</ul>
+		<li>Miss Criteria</li>
+			<ul><li>Reticle aimed at / outside monster outline</li></ul>
+	</ul>
+</dd>
+
+</br>
+<dt>System Testing</dt>
+<dd>
+	<li>Compatibility Testing</li>
+		<ul>
+			<li>Test iOS Compatibility</li>
+			<li>Test Android Compatibility</li>
+		</ul>
+</dd>
+
+</br>
+<dt>Customer Testing</dt>
+<dd>
+	<li>Game Operates Smoothly</li>
+		<ul>
+			<li>Track movement does not glitch</li>
+			<li>Monsters appear with sufficient time to hit them (3 seconds)</li>
+			<li>Firing is accurate</li>
+			<li>Firing occurs without lapse between button press and target hit</li>
+			<li>Camera angle is first person</li>
+		</ul>
+	<li>Terrain Elements</li>
+		<ul>
+			<li>Trees change base on microphone input</li>
+				<ul><li>Colors and size of leaves</li></ul>
+			<li>Art style is consistent throughout the level</li>
+				<ul><li>Terrain Objects (buildings, tunnels, etc) are not the default white color</li></ul>
+			<li>Objects are appropriately placed</li>
+				<ul><li>There aren't floating tombstones (or other stationary elements</li></ul>
+		</ul>
+	<li>Scoring</li>
+		<ul>
+			<li>Scores are displayed at the end of the level</li>
+			<li>Monsters are outlined in different colors depending on scoring criteria</li>
+				<ul><li>Black Outline = 5 points</li></ul>
+				<ul><li>Blue Outline = 10 points</li></ul>
+				<ul><li>Gold / Yellow Outline = 15 points</li></ul>
+		</ul>
+	<li>Monster is hit and turns red (fill and outline color)</li>
+</dd>
+</ul>
+</br>
+</br>
+<!--
+#####################################
+	Table Below
+#####################################
+-->
+	<table style="width:100%">
+		<!-- table row (tr) table headers (th) table data (td) -->
+		<tr>
+			<th>Tested Item</th>
+			<th>Status</th>
+			<th>Comments</th>
+		</tr>
+		<tr>
+			<th colspan="3">Unit Testing</th>
+		</tr>
+		<tr>
+			<td>Menu - Play</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Menu - Options</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Menu - Quit</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Pause Menu - Game Pauses</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Pause Menu - Resumes</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Pause Menu - Options</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Pause Menu - Quit</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Scoring - Display at End</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Outline Colors - Scoring</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Outline Colors - Monster Hit Colors</td>
+			<td></td>
+			<td></td>
+		</tr>
+
+		<tr>
+			<th colspan="3">Integration and Function Testing</th>
+		</tr>
+		<tr>
+			<td>Menu - Access within Game</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Combat - Button Click Fires</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Combat - Hit Monster Turns Red</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Combat - Calculate Hit/Miss</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th colspan="3">System Testing</th>
+		</tr>
+		<tr>
+			<td>Compatibility - iOS</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Compatibility - Android</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th colspan="3">Customer Testing</th>
+		</tr>
+		<tr>
+			<td>Game - Smooth Movement</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Game - Monster Appearance Timing</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Game - Accurate Firing</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Game - Firing Timing</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Game - Camera Angle</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Terrain - Tree Changes</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Terrain - Consistent Art Style</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Terrain - Object Placement</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Scoring - Displayed at End</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Scoring - Monster Outline Colors</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Monster - Outline/Fill Colors Change</td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
 </div>
 	<script type="text/javascript" src="dropdown.js"></script>
 </body>

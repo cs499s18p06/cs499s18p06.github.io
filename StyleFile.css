@@ -1,4 +1,22 @@
-﻿body {
+﻿table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+tr:first-child{
+	background-color: #818181;
+	color: white;
+}
+
+tr td:first-child{
+	width: 16em;
+}
+tr td:nth-child(2){
+	width: 5em;
+}
+
+body {
     font-family: "Lato", sans-serif;
 }
 
@@ -9,6 +27,11 @@ dd {
 
 dt{
     text-decoration: underline;
+}
+
+.FirstBullet {
+	margin: 0;
+	padding: 0;	
 }
 
 .sidenav {
