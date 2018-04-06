@@ -66,11 +66,6 @@
 			<li>Test Back Button</li>
 			<ul><li>Takes user back to main menu</li></ul>
 		</ul>
-		<li>Test Quit Button</li>
-		<ul>
-			<li>Closes the Main Menu</li>
-			<li>Application Closes</li>
-		</ul>
 	</ul>
 	<li>Pause Menu</li>
 	<ul>
@@ -80,15 +75,13 @@
 		<ul><li>Takes user back to game mode</li></ul>
 		<li>Test Options Button</li>
 		<ul><li>Same Functionality as Options Button on Main Menu</li></ul>
-		<li>Test Quit Button</li>
-		<ul><li>Takes user back to Main Menu</li></ul>
 	</ul>
 	</li>
-	<li>Scoring</li>
-		<ul><li>Scores are displayed at the end of the level (See Scoring for Rules)</li></ul>
+	<li><a href="#ScoringRules">Scoring</a></li>
+		<ul><li>Scores are displayed at the end of the level (See <a href="#ScoringRules">Scoring</a> for Rules)</li></ul>
 	<li>Outline Colors Change</li>
 	<ul>
-		<li>Scoring</li>
+		<li id="ScoringRules">Scoring</li>
 		<ul><li>Black Outline = 5 points</li></ul>
 		<ul><li>Blue Outline = 10 points</li></ul>
 		<ul><li>Gold / Yellow Outline = 15 points</li></ul>
@@ -113,7 +106,24 @@
 		<li>Miss Criteria</li>
 			<ul><li>Reticle aimed at / outside monster outline</li></ul>
 	</ul>
-	<li>Scoring</li>
+	<li>Terrain Elements</li>
+		<ul>
+			<li>Trees change base on microphone input</li>
+				<ul><li>Colors and size of leaves</li></ul>
+			<li>Art style is consistent throughout the level</li>
+				<ul><li>Terrain Objects (buildings, tunnels, etc) are not the default white color</li></ul>
+			<li><a href="Future_Enhancements.html#GameObjectList">Objects</a> are appropriately placed</li>
+				<ul><li>There aren't floating tombstones (or other stationary elements)</li></ul>
+		</ul>
+	<li>Game Operates Smoothly</li>
+		<ul>
+			<li>Track movement does not glitch</li>
+			<li>Monsters appear with sufficient time to hit them (3 seconds)</li>
+			<li>Firing is accurate</li>
+			<li>Firing occurs without lapse between button press and target hit</li>
+			<li>Camera angle is first person</li>
+		</ul>
+	<li><a href="#ScoringRules">Scoring</a></li>
 		<ul>
 			<li>Scores are displayed at the end of the level</li>
 			<li>Monsters are outlined in different colors depending on scoring criteria</li>
@@ -136,23 +146,6 @@
 </br>
 <dt>Customer Testing</dt>
 <dd>
-	<li>Game Operates Smoothly</li>
-		<ul>
-			<li>Track movement does not glitch</li>
-			<li>Monsters appear with sufficient time to hit them (3 seconds)</li>
-			<li>Firing is accurate</li>
-			<li>Firing occurs without lapse between button press and target hit</li>
-			<li>Camera angle is first person</li>
-		</ul>
-	<li>Terrain Elements</li>
-		<ul>
-			<li>Trees change base on microphone input</li>
-				<ul><li>Colors and size of leaves</li></ul>
-			<li>Art style is consistent throughout the level</li>
-				<ul><li>Terrain Objects (buildings, tunnels, etc) are not the default white color</li></ul>
-			<li>Objects are appropriately placed</li>
-				<ul><li>There aren't floating tombstones (or other stationary elements)</li></ul>
-		</ul>
 	<li>Monster is hit and turns red (fill and outline color)</li>
 </dd>
 </ul>
@@ -167,14 +160,18 @@
 		<!-- table row (tr) table headers (th) table data (td) -->
 		<tr>
 			<th>Tested Item</th>
+			<th>Modified By</th>
+			<th>Date</th>
 			<th>Status</th>
 			<th>Comments</th>
 		</tr>
 		<tr>
-			<th colspan="3">Unit Testing</th>
+			<th colspan="5">Unit Testing</th>
 		</tr>
 		<tr>
 			<td>Menu - Play</td>
+			<td></td>
+			<td></td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -182,9 +179,6 @@
 			<td>Menu - Options</td>
 			<td></td>
 			<td></td>
-		</tr>
-		<tr>
-			<td>Menu - Quit</td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -192,9 +186,13 @@
 			<td>Pause Menu - Game Pauses</td>
 			<td></td>
 			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>Pause Menu - Resumes</td>
+			<td></td>
+			<td></td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -202,19 +200,20 @@
 			<td>Pause Menu - Options</td>
 			<td></td>
 			<td></td>
-		</tr>
-		<tr>
-			<td>Pause Menu - Quit</td>
 			<td></td>
 			<td></td>
 		</tr>
 		<tr>
-			<td>Scoring - Display at End</td>
+			<td><a href="#ScoringRules">Scoring</a> - Display at End</td>
+			<td></td>
+			<td></td>
 			<td></td>
 			<td></td>
 		</tr>
 		<tr>
-			<td>Outline Colors - Scoring</td>
+			<td>Outline Colors - <a href="#ScoringRules">Scoring</a></td>
+			<td></td>
+			<td></td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -222,13 +221,17 @@
 			<td>Outline Colors - Monster Hit Colors</td>
 			<td></td>
 			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 
 		<tr>
-			<th colspan="3">Integration and Function Testing</th>
+			<th colspan="5">Integration and Function Testing</th>
 		</tr>
 		<tr>
 			<td>Menu - Access within Game</td>
+			<td></td>
+			<td></td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -236,9 +239,13 @@
 			<td>Combat - Button Click Fires</td>
 			<td></td>
 			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>Combat - Hit Monster Turns Red</td>
+			<td></td>
+			<td></td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -246,55 +253,6 @@
 			<td>Combat - Calculate Hit/Miss</td>
 			<td></td>
 			<td></td>
-		</tr>
-		<tr>
-			<td>Scoring - Displayed at End</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Scoring - Monster Outline Colors</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<th colspan="3">System Testing</th>
-		</tr>
-		<tr>
-			<td>Compatibility - iOS</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Compatibility - Android</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<th colspan="3">Customer Testing</th>
-		</tr>
-		<tr>
-			<td>Game - Smooth Movement</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Game - Monster Appearance Timing</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Game - Accurate Firing</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Game - Firing Timing</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Game - Camera Angle</td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -302,9 +260,13 @@
 			<td>Terrain - Tree Changes</td>
 			<td></td>
 			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>Terrain - Consistent Art Style</td>
+			<td></td>
+			<td></td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -312,9 +274,82 @@
 			<td>Terrain - Object Placement</td>
 			<td></td>
 			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Game - Smooth Movement</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Game - Monster Appearance Timing</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Game - Accurate Firing</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Game - Firing Timing</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Game - Camera Angle</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><a href="#ScoringRules">Scoring</a> - Displayed at End</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><a href="#ScoringRules">Scoring</a> - Monster Outline Colors</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th colspan="5">System Testing</th>
+		</tr>
+		<tr>
+			<td>Compatibility - iOS</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Compatibility - Android</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th colspan="5">Customer Testing</th>
 		</tr>
 		<tr>
 			<td>Monster - Outline/Fill Colors Change</td>
+			<td></td>
+			<td></td>
 			<td></td>
 			<td></td>
 		</tr>

@@ -18,7 +18,7 @@
 <body>
 
 <div class="sidenav">
-	<img src="./SmallLogo.png" alt="Logo" Height="150" width="150">
+	<img src="./SmallLogo.png" alt="Logo" Height="150" Width="150">
 	<a href="./index.html">Home</a>
 	<a href="./Introduction.html">Introduction</a>
 	<a href="./Requirements.html">Requirements</a>
@@ -45,7 +45,22 @@
 
 <div class="main">
 	<h2>Future Enhancements</h2>
-	<p>write stuff</p>
+	<h3 id="GameObjectList">Game Objects</h3>
+	<p>Each game object in the list below is a series of objects from the CemeteryPack asset package that is free from the Unity Asset Store. The parent objects are created using the GameObject – Create Empty option from the Unity menu. The child objects are then added to the parent object that was just created. One example is the FencedCrypt parent object holds numerous repeats of the ColumnGateColumn, MetObj_Fence1, MetObj_Fence2, MetObj_Fence3, and the Crypt objects. The Crypt object is a parent object to the child objects CryptDoor, CryptMiniRootf1, CryptMiniWall, and FloorFoundation1 objects. (See <a href="#UnityObjects">picture</a>)</p>
+	<p>The placement of these objects is at the discretion of the terrain design manager (Currently <a href="CaitlinActivity.html">Caitlin</a>).</p>
+	<img id="UnityObjects" src="./UnityObjects.PNG" alt="UnityObjects" Height="648" Width="228">
+	
+	<ul class="FirstBullet">
+	</br>
+	<dt>List of Parent Game Objects:</dt>
+	<dd>
+		<li>FencedTombstones</li>
+		<li>Crypt</li>
+		<li>Tombstones</li>
+		<li>FencedCrypt</li>
+		<li>Tree</li>
+	</dd>
+	</ul>
 </div>
 	<script type="text/javascript" src="dropdown.js"></script>
 </body>
