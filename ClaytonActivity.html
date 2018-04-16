@@ -45,6 +45,11 @@
 
 <div class="main">
 	<h1>Clayton Meade</h1>
+	<h3>Week 10: April 15, 2018</h3>
+	<p>At this point the main menu scene was functioning correctly. I figured out how to traverse in and out of scenes without any problems. From here, I worked on getting the scene into a unique prefab and then adding the scene into the game. Its set up in the build function for us to start in the main menu scene and from there go into the game. </p>
+	<p>Next step was implementing my pause functionality which did not work as planned. Google Cardboard and Unity’s User Interface Functionality does not work properly. In a normal game where you can use a mouse, most of Unity3D’s interface design, is in screen overlay mode. This means that no matter where the character is in the game, if they pause or need to use a menu, the UI will be right in front of the characters view. Unfortunately, Google Cardboard requires me to use world space camera overlay. Since our game is an on rails shooter, the user is actively traveling around the map, which mean a world space UI overlay would need a script to actively put itself in front of the user. This is a script I would still need to work on.</p>
+	<p>Otherwise, when you look down in your mine cart, you see an animation occur and if you let the animation run down it quits the game and takes you back to the main menu screen. </p>
+	<p>Next on the list is to take the score mechanic and print a score number at the end of the race to showcase the amount of ghost they killed. </p>
 	<h3>Week 9: April 8, 2018</h3>
 	<p>This week was a large focus on getting the project working. We had our ideas implemented but no real progress on putting the game together. With problems arising in certain situations, I had to figure out a bit more on my part of the project. I spent the majority of my time in the early part of the week learning about Google Cardboard functionality. In order to test the main menu screens, I also needed to have a working cursor and reticle. </p>
 	<p>In an earlier meeting, we decided on using the newest version of google cardboard which incorporated a button on the side of the headset. We agreed to use this and work towards making a game that used the on click functionality. However, I did some research on things like GazeClick which was easy to implement and helped with some User Interface design. </p>
