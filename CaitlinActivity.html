@@ -3,7 +3,6 @@
 	Page: CaitlinActivity.html
 	CS 499 Spring 2018 Group 6
 	Members:
-		Kyle Defler
 		Caitlin Jones
 		Clayton Meade
 		Kelvin Newton
@@ -23,7 +22,7 @@
 	<a href="./Introduction.html">Introduction</a>
 	<a href="./Requirements.html">Requirements</a>
 	<a href="./Design.html">Design</a>
-	<a href="./calendar.html">Calendar</a>
+	<a href="./Calendar.html">Calendar</a>
 	<a href="./Screens.html">Screens</a>
 	<a href="./User_Scenarios.html">User Scenarios</a>
 	<a href="./Testing.html">Testing</a>
@@ -36,7 +35,7 @@
 		<i class="fa fa-caret-down"></i>
 	</button>
 	<div class="dropdown-container">
-		<a href="./KyleActivity.html">Kyle Defler</a>
+		<a href="./KyleActivity.html"><strike>Kyle Defler</strike></a>
 		<a href="./CaitlinActivity.html">Caitlin Jones</a>
 		<a href="./ClaytonActivity.html">Clayton Meade</a>
 		<a href="./KelvinActivity.html">Kelvin Newton</a>
@@ -45,6 +44,12 @@
 
 <div class="main">
 	<h1>Caitlin Jones</h1>
+	<h3>Week 12: April 29, 2018</h3>
+	<p>This week I worked on getting a working product on the Android device. I borrowed the phone from my relative, so I had to keep returning it throughout my development process. No matter what I tried, I could not get the ghost level to work on the phone; it kept crashing every time I loaded it. At first, I thought it was transition issue, then I tried loading just the ghost level, without the menu, and it still crashed. I then tried several different things to get it working, but nothing worked. In the end, I added tombstones to the menu scene and attached the audio movement things to them. When I did this, I was able to get that scene to work on the Android phone. I’ve been wondering if there are too many things in the landscape scene for the phone to handle, but I can’t really take things out. I suppose I could remove some things, but I wonder if that will affect anything. I think it’s going to be left up to the next group, it there is one. Kelvin was working on improving the audio handling and Clayton was trying to help me figure out what was wrong with the ghost scene, but to date, there hasn’t been a fix for those issues.</p>
+	<p>My major responsibility this week was to not only test the app on Android, but also help tweak the final presentation and to create a demo for it. I ended up creating a screen capture of me playing the game from the Unity 3D Game window. I had to edit the video to take out obvious signs that it was recorded on a computer. Occasionally, my mouse would show up where I stopped holding down the ALT key and I would have to remove those frames. In the Unity 3D Game window, in order to use the reticle controls, you have to hold down the ALT key and use the mouse to direct the reticle. When changing from the menu scene to the ghost scene, I had to release the ALT key and depress the ALT key again in order to use the reticle. Bob mentioned something that makes me think it is caused by the reticle not being persistent throughout the game scenes. Apparently, there is some setting in Unity where things can be made persistent and will not be destroyed.</p>
+	<p>Our final presentation went fairly well, but we all agreed that the practice presentation was better than our final presentation. Particularly, I thought there were significantly more ‘umming’ and ‘ahing’ during the final presentation than the practice presentation. I don’t know why that is, but that is why I personally prefer to wing most of my presentations because it feels more like a conversation to me and I don’t have as many verbal fillers in my conversations. I am not afraid of pausing my sentences during a presentation or using semi-informal language to elaborate my points and get my thought across to the people I am speaking to. I feel that using this language and style makes my presentations more interesting to the audience as well as makes me more comfortable speaking about it in any size crowd.</p>
+	<p>After the presentation, I threw myself into finishing the components of the website that hadn’t been done yet. Most notably is updating the <a href="./Screens.html">Screens page</a> with the newest menu screens, as well as making the <a href="./Installation.html">Installation page</a>. In the <a href="Installation.html">Installation page</a>, I had to figure out how to make clickable download buttons. I searched and found that I could use a normal hyperlink and a button control combined with a download attribute. I then had to add some in-text styling to remove the underlining of the hyperlink. There was also some CSS involved, but it wasn’t that major. I went through and changed some other things on the webpages as well and made sure they were all functional and complete. I just hope that all my work was enough. The final meeting where we deliver everything to Bob and Paul is this week. I won’t be writing about it later because this is my last post, but I think everything will go well. I also know that our game isn’t perfect by any means, but it does technically qualify as a ‘minimally viable product’, and that was the most important thing to me. With this sentence, I do hereby call this semester project closed and my GCCR requirement completed, surpassed, and totally blown out of the water.</p>
+
 	<h3>Week 11: April 22, 2018</h3>
 	<p>This week I worked on getting the presentation finished and modified, the project exported to android. The practice presentation last Friday went well, but we still had a few things to add and improve on. Transitions from one person to another and more practice overall will slim down our time, which was Paul’s only criticism.</p>
 	<p>I had to borrow a phone in order to export the app to android because no one in the group has an android phone anymore and only one person has a Mac, which is required to export to iPhone. I thought that an android tablet I had would work, but after talking with Bob, he mentioned that it wouldn’t because it has different sensors than a phone. After some informative video searching, I found one that showed me how to export the app. I was able to export it and run it, but only through the first scene. When I press the play button, it crashes when the game scene attempts to play. I thought this was an issue with the transitions, so I tried exporting only the game scene, but it still crashed. I then thought it was a processing issue, so I removed some of the movements and complexity from the page, still, it crashed. I learned how to use logcat, the unity and android error log tool, to pull the errors that were generated. At first it pulled back a lot of unintelligible errors, but then I was able to narrow the search parameters down. It only generated one error, but even after searching the internet for clues, I am no closer to solving that error or figuring out how to keep the app from crashing. It’s just mind boggling for me to have one scene work and the next scene not work. I’m hoping that my teammates will have some insight into the problem, or perhaps we can get it working on iPhone. We just need one device to work.</p>

@@ -3,7 +3,6 @@
 	Page: Testing.html
 	CS 499 Spring 2018 Group 6
 	Members:
-		Kyle Defler
 		Caitlin Jones
 		Clayton Meade
 		Kelvin Newton
@@ -23,7 +22,7 @@
 	<a href="./Introduction.html">Introduction</a>
 	<a href="./Requirements.html">Requirements</a>
 	<a href="./Design.html">Design</a>
-	<a href="./calendar.html">Calendar</a>
+	<a href="./Calendar.html">Calendar</a>
 	<a href="./Screens.html">Screens</a>
 	<a href="./User_Scenarios.html">User Scenarios</a>
 	<a href="./Testing.html">Testing</a>
@@ -36,7 +35,7 @@
 		<i class="fa fa-caret-down"></i>
 	</button>
 	<div class="dropdown-container">
-		<a href="./KyleActivity.html">Kyle Defler</a>
+		<a href="./KyleActivity.html"><strike>Kyle Defler</strike></a>
 		<a href="./CaitlinActivity.html">Caitlin Jones</a>
 		<a href="./ClaytonActivity.html">Clayton Meade</a>
 		<a href="./KelvinActivity.html">Kelvin Newton</a>
@@ -79,13 +78,13 @@
 	</li>
 	<li><a href="#ScoringRules">Scoring</a></li>
 		<ul><li>Scores are displayed at the end of the level (See <a href="#ScoringRules">Scoring</a> for Rules)</li></ul>
-	<li>Outline Colors Change</li>
+	<li>Fill Colors Change</li>
 	<ul>
 		<li id="ScoringRules">Scoring</li>
-		<ul><li>Black Outline = 5 points</li></ul>
-		<ul><li>Blue Outline = 10 points</li></ul>
-		<ul><li>Gold / Yellow Outline = 15 points</li></ul>
-		<li>Red Outline + Monster Fill Color is Red = Monster is Hit</li>
+		<ul><li>Black Fill = 20 points</li></ul>
+		<ul><li>Yellow Fill = 10 points</li></ul>
+		<ul><li>White Fill = 5 points</li></ul>
+		<li>Monster Fill Color is Red = Monster is Hit</li>
 	</ul>
 </dd>
 
@@ -100,7 +99,7 @@
 		<li>Monster turns red on hit</li>
 		<li>Hit Criteria</li>
 		<ul>
-			<li>Reticle aimed at monster (within colored outline)</li>
+			<li>Reticle aimed at monster (within outline)</li>
 			<li>Button Pressed (firing)</li>
 		</ul>
 		<li>Miss Criteria</li>
@@ -119,7 +118,6 @@
 	<li>Game Operates Smoothly</li>
 		<ul>
 			<li>Track movement does not glitch</li>
-			<li>Monsters appear with sufficient time to hit them (3 seconds)</li>
 			<li>Firing is accurate</li>
 			<li>Firing occurs without lapse between button press and target hit</li>
 			<li>Camera angle is first person</li>
@@ -127,10 +125,10 @@
 	<li><a href="#ScoringRules">Scoring</a></li>
 		<ul>
 			<li>Scores are displayed at the end of the level</li>
-			<li>Monsters are outlined in different colors depending on scoring criteria</li>
-				<ul><li>Black Outline = 5 points</li></ul>
-				<ul><li>Blue Outline = 10 points</li></ul>
-				<ul><li>Gold / Yellow Outline = 15 points</li></ul>
+			<li>Monsters have different fill colors depending on scoring criteria</li>
+				<ul><li>Black Fill = 20 points</li></ul>
+				<ul><li>Yellow Fill = 10 points</li></ul>
+				<ul><li>White = 5 points</li></ul>
 		</ul>
 </dd>
 
@@ -142,14 +140,14 @@
 			<li>Test iOS Compatibility</li>
 				<ul><li>iPhone 6s Running iOS version 11.3</li></ul>
 			<li>Test Android Compatibility</li>
-				<ul><li>Google Pixel 2 XL Running OS version 8.1</li></ul>
+				<ul><li>Samsung Galaxy Note 3 Running Android OS 5.0 Lollipop</li></ul>
 		</ul>
 </dd>
 
 </br>
 <dt>Customer Testing</dt>
 <dd>
-	<li>Monster is hit and turns red (fill and outline color)</li>
+	<li>Monster is hit and turns red (fill color)</li>
 </dd>
 </ul>
 </br>
@@ -214,14 +212,14 @@
 			<td>ScoreManager.cs and Target.cs</td>
 		</tr>
 		<tr>
-			<td>Outline Colors - <a href="#ScoringRules">Scoring</a></td>
+			<td>Fill Colors - <a href="#ScoringRules">Scoring</a></td>
 			<td>Caitlin</td>
-			<td>4/15/2018</td>
-			<td>Not Implemented</td>
-			<td>Time Constraints - ghost outlines aren't different colors</td>
+			<td>4/29/2018</td>
+			<td>Working</td>
+			<td>Colors are Black, Yellow, or White</td>
 		</tr>
 		<tr>
-			<td>Outline Colors - Monster Hit Colors</td>
+			<td>Fill Colors - Monster Hit Colors</td>
 			<td>Caitlin</td>
 			<td>4/15/2018</td>
 			<td>Complete</td>
@@ -261,10 +259,10 @@
 		</tr>
 		<tr>
 			<td>Terrain - Tree Changes</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Caitlin</td>
+			<td>4/28/2018</td>
+			<td>Incomplete</td>
+			<td>Works in Unity. Could not test on device.</td>
 		</tr>
 		<tr>
 			<td>Terrain - Consistent Art Style</td>
@@ -299,14 +297,14 @@
 			<td>Caitlin</td>
 			<td>4/15/2018</td>
 			<td>Complete</td>
-			<td>Monsters react when hit</td>
+			<td>Monsters react when hit (Turn Red)</td>
 		</tr>
 		<tr>
 			<td>Game - Firing Timing</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Caitlin</td>
+			<td>4/28/18</td>
+			<td>Incomplete</td>
+			<td>Works in Unity. Could not test on Android Device</td>
 		</tr>
 		<tr>
 			<td>Game - Camera Angle</td>
@@ -323,11 +321,11 @@
 			<td>Score displays on the ScoreBoardScreen object at the end of the game</td>
 		</tr>
 		<tr>
-			<td><a href="#ScoringRules">Scoring</a> - Monster Outline Colors</td>
+			<td><a href="#ScoringRules">Scoring</a> - Monster Fill Colors</td>
 			<td>Caitlin</td>
 			<td>4/15/2018</td>
-			<td>Not Implemented</td>
-			<td>Time Constraints - ghost outlines aren't different colors</td>
+			<td>Completed</td>
+			<td>Fill colors are Black, Yellow, or White</td>
 		</tr>
 		<tr>
 			<th colspan="5">System Testing</th>
@@ -341,16 +339,16 @@
 		</tr>
 		<tr>
 			<td>Compatibility - Android</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Caitlin</td>
+			<td>4/28/18</td>
+			<td>Incomplete</td>
+			<td>Menu Scene works. Ghost scene crashes the app.</td>
 		</tr>
 		<tr>
 			<th colspan="5">Customer Testing</th>
 		</tr>
 		<tr>
-			<td>Monster - Outline/Fill Colors Change</td>
+			<td>Monster - Fill Colors Change</td>
 			<td>Caitlin</td>
 			<td>4/15/2018</td>
 			<td>Complete</td>

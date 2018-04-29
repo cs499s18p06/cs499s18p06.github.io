@@ -1,4 +1,24 @@
-﻿table, th, td{
+﻿/* Style buttons */
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 40%;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+/*
+##########################################
+*/
+
+table, th, td{
 	border: 1px solid black; 
 	border-collapse: collapse;
 	padding: 5px;
@@ -40,6 +60,9 @@ dt{
 	padding: 0;	
 }
 
+/*
+#########################################
+*/
 .sidenav {
     height: 100%;
     width: 215px;
